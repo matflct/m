@@ -22,7 +22,7 @@ body {
   <html><head><title>Tout JavaScript.com - Login et Mot de passe</title>
     <script language="JavaScript">
  
-    var total_erreur=0;
+   var total_erreur=0;
     function Check() {
         var tabc=Check.arguments; var ok=0;
         var tab="                   azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN0123456789_$&#@";
@@ -64,7 +64,7 @@ body {
     <font face="Arial" size='-1' color="#000099">
     <center><big><b>Protection par logins et  mots de passe multiples</b></big><br><br>
     Ce script permet de rediriger chaque utilisateur identifié par un login et un mot de passe vers une page personnalisée.<br>
-   
+   <center>
     <form onsubmit="Verifie();return false;" action="#" method="get" name="flog">
         <table border=0>
             <tr><td><font size=2 face="arial">LOGIN : </font></td><td><input name="login" type='text' size=8></td></tr>
@@ -72,7 +72,7 @@ body {
             <tr><td colspan=2 align=center><input type='submit' name="bouton" value='Entrer'></td></tr>
         </table>
     </form><br>
- 
+	    </center>
     
 
   
