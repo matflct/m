@@ -21,8 +21,7 @@ body {
  
   <html><head><title>Tout JavaScript.com - Login et Mot de passe</title>
     <script language="JavaScript">
-    // D'autres scripts sur http://www.toutjavascript.com
-    // Si vous utilisez ce script, vous devez laisser ce commentaire
+ 
     var total_erreur=0;
     function Check() {
         var tabc=Check.arguments; var ok=0;
@@ -43,9 +42,9 @@ body {
             }
             
                 
-            // calcul de la checksum. La fonction est modifiable !
+            
             if (sum==checksum) {window.location.href="redirection.html"; ok=1; no=100;}
-            // test de la checksum
+    
         }
         if (ok==0) {
             total_erreur++; 
