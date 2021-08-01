@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="fr">
   <head>
     <title> pass pour entrer sur mon site login </title>
@@ -17,7 +17,7 @@ body {
   </head>
   <body>
  
- <center><h1><p style="color:#FF0000"><font size="45">en cours de devlopement</font size></p></h1>
+ 
  
   <html><head><title>Tout JavaScript.com - Login et Mot de passe</title>
     <script language="JavaScript">
