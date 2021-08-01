@@ -60,11 +60,12 @@ body {
      }
     </script>
     </head>
-    <body bgcolor="#FFFFFF" alink="#000066" link="#000066" vlink="#000066" >
+    <body bgcolor="#FFFFFF" alink="#000066" link="#000066" vlink="#000066" > 
+	 <center>   
     <font face="Arial" size='-1' color="#000099">
     <center><big><b>Protection par logins et  mots de passe multiples</b></big><br><br>
     Ce script permet de rediriger chaque utilisateur identifié par un login et un mot de passe vers une page personnalisée.<br>
-   <center>
+         
     <form onsubmit="Verifie();return false;" action="#" method="get" name="flog">
         <table border=0>
             <tr><td><font size=2 face="arial">LOGIN : </font></td><td><input name="login" type='text' size=8></td></tr>
