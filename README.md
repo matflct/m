@@ -1,4 +1,4 @@
-
+<!doctype html>
 <html lang="fr">
   <head>
     <title> pass pour entrer sur mon site login </title>
@@ -17,12 +17,13 @@ body {
   </head>
   <body>
  
- 
+ <center><h1><p style="color:#FF0000"><font size="45">en cours de devlopement</font size></p></h1>
  
   <html><head><title>Tout JavaScript.com - Login et Mot de passe</title>
     <script language="JavaScript">
- 
-   var total_erreur=0;
+    // D'autres scripts sur http://www.toutjavascript.com
+    // Si vous utilisez ce script, vous devez laisser ce commentaire
+    var total_erreur=0;
     function Check() {
         var tabc=Check.arguments; var ok=0;
         var tab="                   azertyuiopqsdfghjklmwxcvbnAZERTYUIOPQSDFGHJKLMWXCVBN0123456789_$&#@";
@@ -42,9 +43,9 @@ body {
             }
             
                 
-            
+            // calcul de la checksum. La fonction est modifiable !
             if (sum==checksum) {window.location.href="redirection.html"; ok=1; no=100;}
-    
+            // test de la checksum
         }
         if (ok==0) {
             total_erreur++; 
@@ -60,12 +61,11 @@ body {
      }
     </script>
     </head>
-    <body bgcolor="#FFFFFF" alink="#000066" link="#000066" vlink="#000066" > 
-	 <center>   
+    <body bgcolor="#FFFFFF" alink="#000066" link="#000066" vlink="#000066" >
     <font face="Arial" size='-1' color="#000099">
     <center><big><b>Protection par logins et  mots de passe multiples</b></big><br><br>
     Ce script permet de rediriger chaque utilisateur identifié par un login et un mot de passe vers une page personnalisée.<br>
-         
+   
     <form onsubmit="Verifie();return false;" action="#" method="get" name="flog">
         <table border=0>
             <tr><td><font size=2 face="arial">LOGIN : </font></td><td><input name="login" type='text' size=8></td></tr>
@@ -73,9 +73,9 @@ body {
             <tr><td colspan=2 align=center><input type='submit' name="bouton" value='Entrer'></td></tr>
         </table>
     </form><br>
-	    </center>
+ 
     
 
   
   
-  
+  </body>
